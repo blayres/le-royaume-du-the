@@ -1,0 +1,165 @@
+/* GÉNÉRALE */
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-marrom{
+    border: none;
+    background-color: #583D3E;
+    color: #fff;
+    width: 236px;
+    text-align: center;
+}
+
+.btn-marrom:hover{
+    color: #583D3E;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+p{
+    font-size: 16px;
+}
+
+h2{
+    color: #583D3E;
+}
+
+h3{
+    font-size: 18px;
+    color: #583D3E;
+}
+
+.container{
+    width: 1160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    margin: auto;
+}
+
+section{
+    width: 1160px;
+    margin: 0% auto;
+}
+
+/* HEADER */
+
+header{
+    background-color: #583D3E;
+    color: white;
+}
+
+.btn{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    border: 2px solid white;
+    font-weight: 600;
+    display: block;
+}
+
+header a:hover{
+    color: #583D3E;
+    background-color: #fff;
+}
+
+h1{
+    font-size: 22px;
+}
+
+/* SECTION MAIN IMAGE */
+
+.main-image{
+    position: relative;
+    width: 1440px;
+}
+
+.main-image div{
+    background-color: rgba(88, 61, 62, 0.5);
+    height: 45px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 7px;
+    left: 0;
+    width: 100%;
+}
+
+.main-image p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: #583D3E 0.1em 0.1em 0.1em;
+    margin: 0 139px;
+}
+
+/* ITEMS */
+
+.items{
+    margin-top: 30px;
+}
+
+.item{
+    margin-top: 30px;
+    width: 280px;
+    border: 1px solid #583D3E;
+}
+
+.item-description{
+    padding: 10px;
+}
+
+.item p{
+    color: #583D3E;
+}
+
+.container-items{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* BUSINESS */
+
+.business{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.description-business{
+    width: 570px;
+}
+
+.business h2{
+    margin-bottom: 15px;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #583D3E;
+    color: white;
+    margin-top: 50px;
+}
+
+footer a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+footer p{
+    font-size: 18px;
+    font-weight: 600;
+}
