@@ -10,7 +10,7 @@
     border: none;
     background-color: #583D3E;
     color: #fff;
-    width: 236px;
+    max-width: 236px;
     text-align: center;
 }
 
@@ -33,7 +33,7 @@ h3{
 }
 
 .container{
-    width: 1160px;
+    max-width: 1160px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -42,7 +42,7 @@ h3{
 }
 
 section{
-    width: 1160px;
+    max-width: 1160px;
     margin: 0% auto;
 }
 
@@ -72,11 +72,27 @@ h1{
     font-size: 22px;
 }
 
+@media all and (max-width: 500px){
+    header .container{
+        justify-content: space-around;
+    }
+    header .container h1{
+        font-size: 18px;
+    }
+    header .container .btn{
+        font-size: 15px;
+    }
+}
+
 /* SECTION MAIN IMAGE */
 
 .main-image{
     position: relative;
-    width: 1440px;
+    max-width: 1440px;
+}
+
+.main-image img{
+    width: 100%;
 }
 
 .main-image div{
@@ -98,6 +114,17 @@ h1{
     margin: 0 139px;
 }
 
+@media all and (max-width: 500px){
+    .main-image div{
+        position: static;
+        margin-top: -7px;
+    }
+    .main-image p{
+        margin: 0 22px;
+        font-size: 13px;
+    }
+}
+
 /* ITEMS */
 
 .items{
@@ -106,7 +133,7 @@ h1{
 
 .item{
     margin-top: 30px;
-    width: 280px;
+    max-width: 280px;
     border: 1px solid #583D3E;
 }
 
@@ -120,7 +147,14 @@ h1{
 
 .container-items{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+@media all and (max-width: 500px){
+    .items h2{
+        text-align: center;
+    }
 }
 
 /* BUSINESS */
@@ -129,14 +163,35 @@ h1{
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+business-img{
+    width: 570px;
+}
+
+.business img{
+    width: 100%;
 }
 
 .description-business{
-    width: 570px;
+    max-width: 570px;
 }
 
 .business h2{
     margin-bottom: 15px;
+}
+
+@media all and (max-width: 500px){
+    .description-business{
+        margin-top: 15px;
+        margin-inline: 15px;
+    }
+    .description-business h2{
+        text-align: center;
+    }
+    .business{
+        margin-top: 35px;
+    }
 }
 
 /* FOOTER */
@@ -162,4 +217,10 @@ footer a:hover{
 footer p{
     font-size: 18px;
     font-weight: 600;
+}
+
+@media all and (max-width: 540px){
+    footer .container{
+        flex-direction: column;
+    }
 }
