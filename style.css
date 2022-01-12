@@ -72,7 +72,7 @@ h1{
     font-size: 22px;
 }
 
-@media all and (max-width: 500px){
+@media (max-width: 500px){
     header .container{
         justify-content: space-around;
     }
@@ -114,7 +114,7 @@ h1{
     margin: 0 139px;
 }
 
-@media all and (max-width: 500px){
+@media (max-width: 500px){
     .main-image div{
         position: static;
         margin-top: -7px;
@@ -151,7 +151,7 @@ h1{
     flex-wrap: wrap;
 }
 
-@media all and (max-width: 500px){
+@media (max-width: 500px){
     .items h2{
         text-align: center;
     }
@@ -181,7 +181,7 @@ business-img{
     margin-bottom: 15px;
 }
 
-@media all and (max-width: 500px){
+@media (max-width: 500px){
     .description-business{
         margin-top: 15px;
         margin-inline: 15px;
@@ -219,7 +219,7 @@ footer p{
     font-weight: 600;
 }
 
-@media all and (max-width: 540px){
+@media (max-width: 540px){
     footer .container{
         flex-direction: column;
     }
