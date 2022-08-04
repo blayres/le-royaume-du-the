@@ -1,4 +1,4 @@
-# le-royaume-du-the
+# Le Royaume Du Thé
 
 A project made to practice pure HTML and CSS. 
 
